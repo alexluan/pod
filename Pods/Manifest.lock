@@ -1,0 +1,43 @@
+PODS:
+  - AFImageDownloader (1.1.0)
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - PromiseKit-AFNetworking (0.1.7):
+    - AFNetworking (~> 2.0)
+    - PromiseKit/Promise (~> 1.5)
+    - PromiseKit/When
+  - PromiseKit/Promise (1.6.0)
+  - PromiseKit/When (1.6.0):
+    - PromiseKit/Promise
+
+DEPENDENCIES:
+  - AFImageDownloader (~> 1.1.0)
+  - AFNetworking (~> 2.6.0)
+  - PromiseKit-AFNetworking
+
+SPEC CHECKSUMS:
+  AFImageDownloader: 98888db67fa2b3947b5e76f9015971eaa3cea9d5
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  PromiseKit: 6be651503d4af22830b5313be993c5a0ef77bf77
+  PromiseKit-AFNetworking: 364d4cb942a7278f5219c62dc822867655954a8f
+
+COCOAPODS: 0.38.2
